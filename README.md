@@ -1,4 +1,4 @@
-# urlshortener
+# URL Shortener
 
 1. Creating this URL shortener I used XAMPP, mysql and PHP. 
 2. To run this url shortener you will need to move urlshortener.php and style.css to htdocs in your XAMPP folder. 
