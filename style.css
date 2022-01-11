@@ -1,0 +1,99 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:100);
+#main {
+    margin: auto;
+	border: 1px solid #cccccc;
+	width: 300px;
+	background: #F1F3F5;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    font-size : 12px;
+}
+h1 {
+	font-family: Lato, sans-serif;
+	font-size: 40px;
+}
+
+.button {
+	box-shadow: 0px 15px 25px 0px rgba(0, 49, 156, 0.3);
+	background:linear-gradient(to bottom, #2dabf9 5%, #0688fa 100%);
+	background-color:#2dabf9;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	border-radius:35px;
+	border:1px solid #0b0e07;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Lato, sans-serif;
+	font-weight: bold;
+	font-size:20px;
+	padding:9px 23px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #263666;
+	transition: transform .5s;
+}
+.button:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #0688fa), color-stop(1, #2dabf9));
+	background:-moz-linear-gradient(top, #0688fa 5%, #2dabf9 100%);
+	background:-webkit-linear-gradient(top, #0688fa 5%, #2dabf9 100%);
+	background:-o-linear-gradient(top, #0688fa 5%, #2dabf9 100%);
+	background:-ms-linear-gradient(top, #0688fa 5%, #2dabf9 100%);
+	background:linear-gradient(to bottom, #0688fa 5%, #2dabf9 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#0688fa', endColorstr='#2dabf9',GradientType=0);
+	background-color:#0688fa;
+	transform: scale(1.1);
+}
+.button:active {
+	position:relative;
+	top:1px;
+}
+
+
+
+
+form {
+    margin: auto;
+	border: 1px solid #cccccc;
+	background: #E9ECEF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    padding:5px;
+    margin-bottom:10px;
+}
+
+#result {
+
+	border: 1px solid #cccccc;
+	width: 160px;
+	background: #E9ECEF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    font-size : 12px;
+    padding:5px;
+    margin-bottom:50px;
+}
+
+.text {
+	border: 1px solid #cccccc;
+}
+
+input {
+    border: 1px solid #3d3d3d;
+	border-radius:6px;
+}
+
+.values{
+  font-family: verdana;
+  font-weight:normal;
+  font-size : 10px;
+  /* align:top; */
+  vertical-align:top;
+}
+
+.key{
+  font-family: verdana;
+  font-weight:bold;
+  font-size : 12px;
+  padding-bottom:15px;
+}
+
