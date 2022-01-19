@@ -156,7 +156,7 @@ die("Unknown Error Occured");
 
 function generateUniqueID(){
  global $conn; 
- $token = substr(md5(uniqid(rand(), true)),0,3); // creates a 3 digit unique short id. You can maximize it but remember to change .htacess value as well
+ $token = substr(md5(uniqid(rand(), true)),0,3); // creates a 3 digit unique short id. You can maximize it but remember to change .htaccess value as well
  $query = "SELECT * FROM url_shorten WHERE short_code = '".$token."' ";
  $result = $conn->query($query); 
  if ($result->num_rows > 0) {
